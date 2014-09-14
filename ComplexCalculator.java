@@ -75,7 +75,7 @@ public class ComplexCalculator {
 	// isPrime()
 	// TODO returns true if current number is a prime number, false otherwise
 	public boolean isPrime() {
-		if (currentNumber % 2 != 0 && currentNumber % 3 != 0) { //if not equal to an even or odd number
+		if (currentNumber % 2 != 0 && currentNumber % 3 != 0 || currentNumber == 2) { //if not equal to an even or odd number
 			return true;
 		}
 		else {
